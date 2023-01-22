@@ -29,7 +29,7 @@ export const deleteTodo = (TodoId) => {
 
 export const markTodoComplete = (id, completed) => {
 	return axios
-		.patch(API_ENDPOINT + `/${id}`, { completed: completed })
+		.patch(API_ENDPOINT + `/${id}`, { completed: !completed })
 		.then((response) => {
 			return response.data;
 		})
