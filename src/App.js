@@ -19,7 +19,7 @@ const App = memo((props) => {
 
 	useEffect(() => {
 		fetchData();
-	}, []);
+	});
 
 	return (
 		<AppLayout>
