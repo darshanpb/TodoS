@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import { List, Paper, Grid } from "@mui/material";
+import { List, Paper } from "@mui/material";
 import ListItem from "./ListItem";
 export const TodoList = memo((props) => (
 	<>
